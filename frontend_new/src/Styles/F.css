@@ -1,0 +1,156 @@
+/* FAQPage.css */
+.faq-page {
+    font-family: Arial, sans-serif;
+  }
+  
+  .breadcrumb-block {
+    padding: 10px 0;
+  }
+  
+  .breadcrumb {
+    background: none;
+  }
+  
+  .breadcrumb-item a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .breadcrumb-item.active {
+    color: #6c757d;
+  }
+  
+  .main-card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    background-color: #fff;
+  }
+  
+  .bp-title h4 {
+    margin: 0;
+  }
+  
+  .bp-content {
+    margin-top: 20px;
+  }
+  
+  .faq-widget-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .faq-widget-links li {
+    margin-bottom: 10px;
+  }
+  
+  .faq-widget-links a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .faq-widget-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .cant-ans-box {
+    margin-top: 20px;
+  }
+  
+  .cant-ans-box h4 {
+    margin-bottom: 10px;
+  }
+  
+  .accordion-button {
+    background: none;
+    border: none;
+    text-align: left;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+  
+  .accordion-collapse {
+    display: none;
+    overflow: hidden;
+  }
+  
+  .accordion-collapse.show {
+    display: block;
+  }
+  
+  .accordion-body {
+    padding: 15px;
+  }
+  .img{
+    height: 200px;
+    width: 300px;
+  }
+  
+.faq-accordion .accordion-item {
+	background: transparent;
+	border-top: 1px solid #cbcbcb;
+	border-bottom: 0;
+	border-left: 0;
+	border-right: 0;
+}
+
+.faq-accordion .accordion-item:last-child {
+	border-bottom: 1px solid #cbcbcb;
+}
+
+.faq-accordion .accordion-item:not(:first-of-type) {
+    border-top: 1px solid #cbcbcb;
+}
+
+.accordion-body p {
+    line-height: 28px;
+}
+
+/*--- FAQ Page ---*/
+
+.faq-widget-links li {
+    margin-bottom: 15px;
+}
+
+.faq-widget-links li:last-child {
+    margin-bottom: 0;
+}
+
+.faq-widget-links li p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    display: block;
+	margin-bottom: 0;
+}
+
+.faq-widget-links li a {
+    color: #000;
+}
+
+.faq-widget-links li a:hover {
+    color: #c072e4 !important;
+}
+
+.cant-ans-box a {
+    font-size: 16px;
+    margin-top: 1.5rem;
+    display: block;
+    color: #bd6ddc;
+    font-weight: 500;
+}
+
+.cant-ans-box a:hover {
+    color: #cf82f2 !important;
+}
+
+.faq-accordion-title h4 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 23px;
+}
+
+.faq-attendees-accordion {
+    margin-top: 57px;
+}

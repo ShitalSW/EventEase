@@ -1,0 +1,215 @@
+.event-dt-block {
+    padding: 80px 0;
+  }
+  
+  .event-top-dts {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .event-top-date {
+    margin-right: 20px;
+  }
+  
+  .event-top-date .event-month {
+    display: block;
+    font-size: 20px;
+    color: #160303;
+    background-color: #bb70e1;
+  }
+  
+  .event-top-date .event-date {
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .event-top-dt {
+    flex-grow: 1;
+  }
+  
+  .event-main-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .event-top-info-status {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .event-top-info-status .event-type-name {
+    margin-right: 10px;
+  }
+  
+  .details-hr::before {
+    content: "|";
+    margin: 0 5px;
+    color: #ddd;
+  }
+  
+  .main-event-dt {
+    margin-bottom: 40px;
+  }
+  
+  .event-img img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .share-save-btns {
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px 0;
+  }
+  
+  .sv-btn {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    background-color: #b761e1;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .sv-btn i {
+    margin-right: 5px;
+  }
+  
+  .main-event-content {
+    margin-top: 20px;
+  }
+  
+  .main-event-content h4 {
+    margin-bottom: 10px;
+  }
+  
+  .main-event-content p {
+    margin-bottom: 15px;
+  }
+  
+  .main-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .bp-title h4 {
+    margin-bottom: 20px;
+  }
+  
+  .time-left .countdown {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    
+  }
+  
+  .countdown-item {
+    text-align: center;
+  }
+  
+  .event-dt-right-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .event-dt-right-icon {
+    margin-right: 10px;
+    font-size: 24px;
+  }
+  
+  .event-dt-right-content h4 {
+    margin-bottom: 5px;
+  }
+  
+  .event-dt-right-content h5 {
+    margin-bottom: 0;
+  }
+  
+  .select-tickets-block h6 {
+    margin-bottom: 15px;
+  }
+  
+  .select-ticket-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .ticket-price {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .quantity {
+    display: flex;
+    align-items: center;
+  }
+  
+  .counter {
+    display: flex;
+    align-items: center;
+  }
+  
+  .counter .down,
+  .counter .up {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .counter input {
+    width: 50px;
+    text-align: center;
+    border: none;
+  }
+  
+  .xtotel-tickets-count {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .xtotel-tickets-count .x-title {
+    font-weight: bold;
+  }
+  
+  .booking-btn {
+    margin-top: 20px;
+  }
+  
+  .main-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #b970dd;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .main-btn:hover {
+    background-color: #bb70e1;
+  }
+  
+  .btn-hover {
+    transition: background-color 0.3s ease;
+  }
+  .link{
+    color: #bb70e1;
+  }
+  .link-over{
+    color: #8322b4;
+  }

@@ -1,0 +1,176 @@
+.app-form {
+    -webkit-box-orient: horizontal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    min-height: 100vh;
+}
+.app-form-sidebar {
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    min-height: 100vh;
+    background:rgb(164, 8, 226) url(../Images/image1.jpg);
+    width: 500px;
+    padding: 50px;
+}
+.sidebar-sign-logo {
+    width: 140px;
+}
+
+.sidebar-sign-logo img {
+    max-width: 100%;
+}
+.sign_sidebar_text h1 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+    color: #fff;
+}
+.app-form-content {
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.app-top-items {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.sign-logo {
+	display: none;
+}
+
+.sign-logo img {
+    width: 100%;
+	padding-top: 0;
+	width: 130px;
+}
+.app-top-right-link {
+    margin-left: auto;
+    margin-top: 5px;
+	color: #231f20;
+	font-size: 14px;
+	font-weight: 400;
+}
+.sidebar-register-link {
+    margin-left: 5px;
+    color: #aa43da;
+    font-weight: 500;
+}
+.sidebar-register-link:hover {
+	color: #983fd8 !important;
+}
+.registration .form-control {
+    background-color: #f9f9f9 !important;
+}
+.registration-title {
+    margin-top: 35px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.field-password {
+	position: relative;
+}
+.forgot-pass-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+	 color: #bc1bdc !important;
+    font-weight: 500;
+}
+
+.forgot-pass-link:hover {
+	color: #a534f0 !important;
+}
+.pass-show-eye {
+    color: #717171;
+    font-weight: 600;
+    position: absolute;
+    background: transparent;
+    right: 5px;
+    top: 5px;
+    min-height: 40px;
+    padding: 0 15px;
+    line-height: 40px;
+    margin-bottom: 0;
+    border-radius: 3px;
+	cursor: pointer;
+}
+
+.pass-show-eye:hover {
+    color: #a341df !important;
+}
+.divider {
+	position: relative;
+    text-align: center;
+	z-index: 1;
+	margin: 30px 0;
+}
+.divider:before {
+	content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 1px;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    background: rgba(112,112,112,0.2);
+}
+.divider:before {
+	content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 1px;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+   
+    background: rgba(112,112,112,0.2);
+    
+}
+.social-login-btn {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #efefef;
+    background: #fff;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.social-login-btn:hover {
+    background: #F5F5F5 ;
+}
+.new-sign-link {
+    margin-top: 30px;
+    text-align: center;
+	margin-bottom: 35px;
+
+}
+.signup-link {
+    margin-left: 5px;
+    color: #b045e6 !important;
+    font-weight: 500;
+}
+
+.signup-link:hover {
+	color: #9d47df !important;
+}

@@ -1,0 +1,44 @@
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@example.com",
+  "profilePicture":"../Images/img1.jpg",
+  "bio": "Software engineer with a passion for developing innovative programs that expedite the efficiency and effectiveness of organizational success.",
+  "role": "attendee",
+  "bookedEvents": [
+    {
+      "name": "Tech Conference 2024",
+      "date": "2024-09-12",
+      "location": "San Francisco, CA"
+    },
+    {
+      "name": "Music Fest",
+      "date": "2024-10-05",
+      "location": "Los Angeles, CA"
+    }
+  ],
+  "createdEvents": [
+    {
+      "name": "React Workshop",
+      "date": "2024-08-15",
+      "location": "New York, NY"
+    },
+    {
+      "name": "AI Summit",
+      "date": "2024-11-20",
+      "location": "Chicago, IL"
+    }
+  ],
+  "savedEvents": [
+    {
+      "name": "Web Development Bootcamp",
+      "date": "2024-09-25",
+      "location": "San Jose, CA"
+    },
+    {
+      "name": "Digital Marketing Expo",
+      "date": "2024-10-15",
+      "location": "Austin, TX"
+    }
+  ]
+}

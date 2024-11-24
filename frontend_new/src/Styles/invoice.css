@@ -1,0 +1,341 @@
+/* 
+.invoice-header {
+    background: #1c2131;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 60px;
+    padding: 5px 20px;
+}
+
+.invoice-header-logo img {
+    width: 130px;
+}
+
+.download-link {
+    color: rgba(255,255,255,0.9);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.download-link:hover {
+    color: rgba(255,255,255,1) !important;
+}
+
+.invoice-body {
+    padding: 30px;
+    background: #fff;
+    float: left;
+    width: 100%;
+}
+
+.invoice_title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+    text-align: left;
+}
+
+.vhls140 {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.vhls140 ul li {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.vdt-list {
+    font-size: 14px;
+    font-weight: 400;
+    color: #717171;
+    text-align: left;
+    line-height: 24px;
+}
+
+.totalinv2 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 8px;
+}
+
+.user_dt_trans {
+    padding: 10px;
+}
+
+.user_dt_trans p {
+    margin-bottom: 0;
+}
+
+.cut-line {
+    position: relative;
+    border-bottom-width: 1px;
+    border-top: 0;
+    border-radius: 0;
+    border-left: 0;
+    border-style: dashed;
+    height: 1px;
+    color: #bbb;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cut-line i {
+    position: absolute;
+    top: -6px;
+    background: #fff;
+    width: 16px;
+}
+
+.QR-dt {
+    height: 100%;
+    background: #f9f9f9;
+}
+
+.QR-scanner {
+    background: #fff;
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #efefef;
+    border-radius: 3px;
+}
+
+.QR-scanner img {
+    width: 75px;
+}
+
+.QR-dt p {
+    margin-bottom: 0;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.QR-counter-type li {
+    margin-bottom: 3px;
+    color: #000;
+}
+
+.QR-counter-type li:first-child {
+    margin-bottom: 17px;
+    font-weight: 500;
+	font-size: 16px;
+}
+
+.QR-counter-type li:last-child {
+    margin-bottom: 20px;
+    font-weight: 500;
+	font-size: 16px;
+}
+
+.featured-controls label {
+    margin: 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.featured-controls label:first-child {
+    margin-left: 0;
+}
+
+.featured-controls label span {
+    font-size: 12px;
+    color: #717171;
+    border: 1px solid #efefef;
+    background: #fff;
+    height: 32px;
+    padding: 7px 20px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-right: 6px;
+    margin-bottom: 6px;
+}
+
+.featured-controls label input {
+    position:absolute;
+    top:-20px;
+}
+
+.featured-controls label input {
+    position:absolute;
+    top:-20px;
+}
+
+.featured-controls input:checked + span {
+    background: #efefef;
+    color: #000 !important;
+}
+
+.event-box {
+    padding: 0;
+    display: none;
+    margin-top: 0;
+}
+
+
+.map iframe {
+    width: 100%;
+    height: 250px;
+} */
+ /* General Styles */
+/* General Styles */
+.container{
+    align-content:center;
+    width:900px;
+    height: 300px;
+}
+.invoice {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+  }
+  
+  .invoice-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .invoice-header-logo img {
+    max-height: 50px;
+  }
+  
+  .invoice-header-text {
+    display: flex;
+    align-items: center;
+  }
+  
+  .download-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .invoice-body {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .invoice_title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .vhls140 {
+    padding: 10px;
+  }
+  
+  .vdt-list {
+    margin-bottom: 5px;
+  }
+  
+  .main-table {
+    margin-top: 20px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #dee2e6;
+  }
+  
+  .table thead th {
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .user_dt_trans {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .totalinv2 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .invoice_footer {
+    margin-top: 20px;
+  }
+  
+  .cut-line {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .cut-line i {
+    font-size: 24px;
+    color: #343a40;
+  }
+  
+  .main-card {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-order-dt {
+    display: flex;
+  }
+  
+  .event-thumbnail-img img {
+    max-width: 100px;
+    border-radius: 5px;
+  }
+  
+  .event-order-dt-content {
+    margin-left: 20px;
+  }
+  
+  .booking-total-tickets, .booking-total-grand {
+    margin-top: 10px;
+  }
+  
+  .booking-total-tickets i {
+    margin-right: 5px;
+  }
+  
+  .QR-dt {
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .QR-counter-type {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .QR-counter-type li {
+    margin-bottom: 5px;
+  }
+  
+  .QR-scanner img {
+    max-width: 100px;
+  }
+  
+  p {
+    margin: 0;
+    font-size: 14px;
+  }
+  

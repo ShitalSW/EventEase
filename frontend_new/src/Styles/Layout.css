@@ -1,0 +1,21 @@
+/* src/Styles/Layout.css */
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.layout-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Makes sure the layout takes at least the full height of the viewport */
+}
+
+.content {
+  flex: 1; /* Allows the main content to take up the remaining space */
+}
+
+footer {
+  margin-top: auto; /* Pushes the footer to the bottom of the layout */
+}

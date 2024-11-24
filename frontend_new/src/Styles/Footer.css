@@ -1,0 +1,133 @@
+/* .footer {
+  background: #1c2131;
+  color: #fff;
+}
+
+.footer-top {
+  padding: 24px 0 64px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer-bottom {
+  text-align: center;
+}
+.footer-content {
+  margin-top: 38px;
+}
+.footer-content h4 {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 11px;
+  font-weight: 400;
+}
+.footer-link-list li {
+  display: block;
+  line-height: 32px;
+}
+.footer-link {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-link:hover {
+  color: rgb(205, 117, 237) !important;
+}
+.footer-content > .social-links {
+  margin-top: 21px;
+}
+
+.footer-content > .social-links > li {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.footer-content > .social-links > li:last-child {
+  margin-right: 0;
+}
+
+.footer-content > .social-links li > .social-link {
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  display: block;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 100%;
+  text-align: center;
+  line-height: 39px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-content > .social-links li > .social-link:hover {
+  color: #fff !important;
+  border: 2px solid rgba(106, 192, 69, 1);
+  background-color: rgba(106, 192, 69, 1);
+} */
+
+/* src/Styles/Footer.css */
+
+.footer {
+  background: #1c2131;
+  color: #fff;
+  padding: 24px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
+.footer-top {
+  padding-bottom: 64px;
+}
+
+.footer-content {
+  margin-top: 38px;
+}
+
+.footer-content h4 {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 11px;
+  font-weight: 400;
+}
+
+.footer-link-list li {
+  display: block;
+  line-height: 32px;
+}
+
+.footer-link {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-link:hover {
+  color: rgb(205, 117, 237) !important;
+}
+
+.social-links {
+  margin-top: 21px;
+}
+
+.social-links li {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.social-links li:last-child {
+  margin-right: 0;
+}
+
+.social-link {
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  display: block;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 100%;
+  text-align: center;
+  line-height: 39px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.social-link:hover {
+  color: #fff !important;
+  border: 2px solid rgba(106, 192, 69, 1);
+  background-color: rgba(106, 192, 69, 1);
+}

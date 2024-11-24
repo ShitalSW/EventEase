@@ -1,0 +1,57 @@
+/* General header styles */
+a {
+  cursor: pointer;
+}
+
+.navbar {
+  padding: 0.5rem 1rem;
+  background-color: rgb(194, 101, 222);
+  height: 9%;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.res-main-logo img,
+.main-logo img {
+  max-height: 40px;
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #150303;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+  color: #02101f;
+}
+
+.navbar-nav .nav-item .dropdown-menu {
+  margin-top: 1;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+}
+
+.account-link {
+  display: flex;
+  align-items: center;
+  color: #000;
+  text-decoration: none;
+}
+
+.dropdown-account-header {
+  text-align: center;
+  padding: 1rem;
+  border-bottom: 1px solid #f5f5f5;
+}

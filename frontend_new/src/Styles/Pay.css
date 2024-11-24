@@ -1,0 +1,107 @@
+/* ForgotPassword.css */
+.form-wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .app-form {
+    display: flex;
+    width: 100%;
+  }
+  
+  .app-form-sidebar {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .sidebar-sign-logo img {
+    max-width: 100%;
+  }
+  
+  .sign_sidebar_text h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .app-form-content {
+    flex: 2;
+    padding: 20px;
+  }
+  
+  .app-top-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .sign-logo img {
+    height: 50px;
+  }
+  
+  .logo-inverse {
+    display: none;
+  }
+  
+  .app-top-right-link a {
+    color: #007bff;
+  }
+  
+  .regist {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 50px;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .registration-title {
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-control.h_50 {
+    height: 50px;
+  }
+  
+  .main-btn {
+    background-color: #b050d6;
+    color: #fff;
+    border: none;
+    padding: 2px;
+    align-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-hover:hover {
+    background-color: #cf69e6;
+  }
+  
+  .new-sign-link {
+    margin-top: 10px;
+  }
+  
+  .new-sign-link a {
+    color: #d269e7;
+  }
+  
+  .copyright-footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+    margin-top: 20px;
+  }
+  
